@@ -44,3 +44,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     loadTasks();
 });
+
+    });
+
+    // Load saved tasks from localStorage on page load
+    loadTasks();
+});
